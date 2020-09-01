@@ -4,8 +4,8 @@ const gulp = require("gulp");
 const webpack = require("webpack-stream");
 const browsersync = require("browser-sync");
 
-// const dist = "./dist/";
-const dist = 'D:/admin/OpenServer/domains/projects/Irvas';
+const dist = "./dist/";
+// const dist = 'D:/admin/OpenServer/domains/projects/Irvas';
 
 gulp.task("copy-html", () => {
     return gulp.src("./src/index.html")
